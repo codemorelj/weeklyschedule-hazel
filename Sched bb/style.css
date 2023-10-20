@@ -1,0 +1,223 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url('img/pink.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    background-color: #a17676;
+    float: left;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    position: fixed;
+    border-radius: 0 70px 70px 0; 
+    margin: -10px;
+    padding-top: 50px;
+    display: none;
+}
+
+nav li{
+    padding: 10px;
+    list-style-type: none;
+    margin-right: 40px;
+    text-align: center;
+    color: #351919;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-size: 8rem;
+    position: absolute;
+    margin: 120px 100px;
+    color: #351919;
+}
+
+section{
+    width: 90%;
+    padding: 4vh;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+button{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: inherit;
+    border: 2px solid #351919;
+    color: #351919;
+    padding: 10px 30px;
+    margin: 28rem 0 0 7rem;
+}
+
+img, h1{
+    max-width: 50%;
+}
+
+#bilog{
+    float: right;
+    max-width: 50%;
+    margin: 0 -90px;
+}
+
+.sched{
+    float: right;
+    background-color: inherit;
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+    box-shadow: 10px 20px 20px #35191980;
+    font-family: 'Montserrat';
+}
+
+.patric{
+    font-size: .9rem;   
+    margin: 0 25px;
+    display: inline-block;
+}
+
+#pat{
+    position: absolute;
+    margin-left: -35em;
+    max-width: 70%;
+}
+
+.sched{
+    padding: 4px 5px;
+    margin: 90px -30px;
+    display: flex;
+}
+
+.patric div{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+hr{
+    border: 1px solid #351919;
+}
+
+.subjects{
+    font-weight: 10000;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+
+    section{
+        padding: 3% 5%;
+    }
+
+    h1{
+        margin: 0;
+        font-size: 80px;
+        max-width: 30%;
+        margin: 50px 40px;
+    }
+
+    #bilog{
+        margin-right: -1em;
+        margin-top: 30px;
+        max-width: 40%;
+    }
+
+    #pat{
+        margin-top: 45vh;
+        max-width: 40%;
+    }
+
+    .sched{
+        margin-top: 40px;
+    }
+
+    button{
+        font-size: 15px;
+        margin: 250px 0 0 5%;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    h1{
+        margin: 0;
+        font-size: 60px;
+        max-width: 30%;
+        margin: 50px -10px;
+    }
+
+    #bilog{
+        margin-right: -1em;
+        margin-top: 40px;
+        max-width: 30%;
+    }
+
+    #pat{
+        margin-top: 9rem;
+        margin-left: .3rem;
+        display: none;
+    }
+
+    .sched{
+        padding: 4px 5px;
+        margin: 3rem auto;
+        display: block;
+        border: none;
+    }
+
+    .patric{
+        padding: 5px 5%;
+    }
+
+    button{
+        font-size: 13px;
+        margin: 217px 0 0 0;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    h1{
+        margin: 0;
+        font-size: 60px;
+        max-width: 30%;
+        margin: 50px -10px;
+    }
+
+    #bilog{
+        margin-right: -1em;
+        margin-top: 40px;
+        max-width: 30%;
+    }
+
+    #pat{
+        margin-top: 9rem;
+        margin-left: .3rem;
+        display: none;
+    }
+
+    .sched{
+        padding: 0 auto;
+    }
+
+    .patric{
+        padding: 0 15%;
+        margin: 0 auto;
+    }
+
+    button{
+        font-size: 13px;
+        margin: 217px 0 0 0;
+    }
+
+}
